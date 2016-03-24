@@ -8,7 +8,7 @@
 </style>
 </head>
 <body>
-<div id="header"img src="headera.png" alt="headera"width="100%";</div>
+<div id="header"img src="img/headera.png" alt="headera"width="100%";</div>
 	<ul class="buttonsl">
 		<li><a href="p1.html">Link 1</a></li>
 		<li><a href="p2.html">Link 2</a></li>
