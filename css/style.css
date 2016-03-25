@@ -1,74 +1,75 @@
-body{
-			border-width: 2px;
-			padding:2px ;
+html,
+body	{
+	border-width: 2px;
+		padding:2px ;
 			margin: 2px;
-			text-align:left;
-			background-color: lightgrey;
-			font-family: cursive;
-			}
-a{
-			color: white;
-			text-decoration: none;
-		}	
-div.top{
-			border-style: ridge;
-			border-width: 2px;
+				text-align:left;
+					background-color: lightgrey;
+						font-family: cursive;
+	}
+a	{
+	color: white;
+		text-decoration: none;
+	}	
+div.top	{
+	border-style: ridge;
+		border-width: 2px;
 			background-color: cornflowerblue;
-			padding-top: 50px;
-			padding-bottom: 25px;
-			padding-left: 10px;
-			margin-bottom: 20px;
-			margin-left: 2px;
-			}
-main1{
-			Color: lightgrey;
-			font-size: 250%;
-			
-			}
+				padding-top: 50px;
+					padding-bottom: 25px;
+						padding-left: 10px;
+							margin-bottom: 20px;
+								margin-left: 2px;
+	}
+main1	{	
+	Color: lightgrey;
+		font-size: 250%;
+	}
 main2{
-			color: lightgrey;
-			font-size: 125%;
+	color: lightgrey;
+		font-size: 125%;
 			margin: 35px;
-			}
-div.text1{
-			text-align: center;
-			margin-top:50px;
+	}
+div.text{
+	text-align: center;
+		margin-top:50px;
 			color: red;
-			}
+	}
 ul.buttonsl{
-			float: left;clear: right;
-			list-style-type: none;
+	float: left;clear: right;
+		list-style-type: none;
 			padding: 5px;
-			margin: 5px;
-			top: 5px;
-			left: 5px;
-			width: 100px;
-			}
+				margin: 5px;
+					top: 5px;
+						left: 5px;
+							width: 100px;
+		}
 ul.buttonsl li{
-			background-color: cornflowerblue;
+		background-color: cornflowerblue;
 			margin: 5px;
 			padding: 2px;
-			border-width: 2px;
-			border-style: ridge;
-			}
-ul.buttonsr{
-			float: right;
+				border-width: 2px;
+					border-style: ridge;
+		}
+ul.buttonsr	{
+		float: right;
 			list-style-type: none;
-			padding: 5px;
-			margin: 5px;
-			top: 5px;
-			left: 5px;
-			width: 100px;
-			}
+				padding: 5px;
+					margin: 5px;
+						top: 5px;
+							left: 5px;
+								width: 100px;
+		}
 ul.buttonsr li{
-			background-color: cornflowerblue;
+		background-color: cornflowerblue;
 			margin: 5px;
-			padding: 2px ;
-			border-width: 2px;
-			border-style: ridge;
-			}
-p{	
-			}
-p2{		color: red;
-			}
+				padding: 2px ;
+					border-width: 2px;
+						border-style: ridge;
+		}
+p	{	
+	}
+p2	{
+	color: red;
+	}
 </style>
