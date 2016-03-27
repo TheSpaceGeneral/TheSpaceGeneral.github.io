@@ -4,14 +4,14 @@ body	{
 			margin: 0;
 			padding: 0;
 			height: 100%;
-			background-image: url("c:/netshare/img/brick128.gif")		
+			background-image: url("img/brick128.gif")		
 			}
 #container {
 			position: absolute;
 			width: 100%;
 			}
 #header {
-			background-image: url("c:/netshare/img/box50.gif");
+			background-image: /img/box50.gif");
 			background: ;
 			padding: 15px;
 			padding-top: 50px;
@@ -51,7 +51,7 @@ body	{
 			}
 #menu1 {
 			position: relative;
-			background-image: url("c:/netshare/img/800_600.gif");
+			background-image: /img/800_600.gif");
 			background-color: cornflowerblue;
 			width: 15%;
 			float: left;
