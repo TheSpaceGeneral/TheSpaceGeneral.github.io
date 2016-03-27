@@ -46,7 +46,7 @@ body	{
 			border-bottom-style: ridge;
 			border-bottom-width: 2px;
 			}
-div.linksl	{
+.linksl	{
 		
 			list-style-type: none;
 			padding: 5px;
@@ -55,7 +55,7 @@ div.linksl	{
 			left: 5px;
 			width: ;
 			}
-div.linksl li{
+ul.linksl li{
 			background-color: cornflowerblue;
 			margin: 5px;
 			padding: 2px;
