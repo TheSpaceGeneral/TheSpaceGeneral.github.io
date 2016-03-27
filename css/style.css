@@ -1,16 +1,18 @@
 html,
 body	{
-			background-color: lightgrey;
+			color: black;
 			margin: 0;
 			padding: 0;
 			height: 100%;
+			background-image: url("c:/netshare/img/brick128.gif")		
 			}
 #container {
 			position: absolute;
 			width: 100%;
 			}
 #header {
-			background: cornflowerblue;
+			background-image: url("c:/netshare/img/box50.gif");
+			background: ;
 			padding: 15px;
 			padding-top: 50px;
 			margin: 0px;
@@ -22,22 +24,36 @@ body	{
 			}
 #headtextmain	{
 			color: white;
+			text-shadow: -3px -3px black;
 			font-family: cursive;
 			font-style: italic;
-			text-indent: 20px;
+			text-indent: 50px;
 			font-size: 250%;
 			}
 #headtextsub	{
 			color: white;
+			text-shadow: -3px -3px black;
 			font-family: cursive;
 			font-style: italic;
-			text-indent: 50px;
+			text-indent: 100px;
 			font-size: 125%;
+			}
+#bar	{	position: static;
+			width: 100%;
+			height: 50px;
+			background-color: black;
+			border-bottom-color: red;
+			border-bottom-style: ridge;
+			border-bottom-width: 2px;
+			}
+.linktext{
+			text-shadow: -2px -2px red;
 			}
 #menu1 {
 			position: relative;
-			background-color: black;
-			width: 19%;
+			background-image: url("c:/netshare/img/800_600.gif");
+			background-color: cornflowerblue;
+			width: 15%;
 			float: left;
 			border-right-style: ridge;
 			border-right-color: red;
@@ -66,9 +82,20 @@ ul.linksl li{
 			position: relative;
 			text-indent: 20px;
 			width: 80%;
-			height: 100%;
-			background-color: lightgrey;
+			min-height: 100%;
+			background-color: white;
 			float: left;
+			}
+#menur {
+			position: relative;
+			width: 15%;
+			float: right;
+			border-left-style: ridge;
+			border-left-color: red;
+			border-left-width: 2px;
+			border-bottom-color: red;
+			border-bottom-style: ridge;
+			border-bottom-width: 2px;
 			}
 a	{
 			font-style: italic;
