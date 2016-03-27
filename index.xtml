@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Your Title Here</title>
+<link rel="stylesheet" href="css/style.css"></link>
+<style type="text/css"></style>
+</head>
+<body>
+	<div id="container" >
+		<div id="header">
+			<div id="headtextsub">Welcome to</div>
+					<div id="headtextmain">Your New Website</div>
+		</div>
+			<div id="menu1">
+				<div class="linksl">
+					<li><a href="index.html">Link 1</a></li>
+						<li><a href="index.html">Link 2</a></li>
+							<li><a href="index.html">Link 3</a></li>
+				</div>
+			</div>
+				<div id="body">
+					<h1>Header 1</h1>
+						<p>Paragraph</p>
+				</div>
+	</div>
+</body>
+</html>
