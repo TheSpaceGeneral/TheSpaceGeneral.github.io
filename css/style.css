@@ -1,103 +1,94 @@
 html,
 body	{
-			color: black;
 			margin: 0;
 			padding: 0;
 			height: 100%;
-			background-image: url("img/brick128.gif")		
+			background-image: url("c:/netshare/img/brick128.gif")
 			}
 #container {
 			position: absolute;
 			width: 100%;
+			min-height: 85%		
 			}
 #header {
-			background-image: url("img/box50.gif");
-			padding: 15px;
+			position: relative;
+			background-image: url("c:/netshare/img/box50.gif");
+			padding: 0px;
 			padding-top: 50px;
 			margin: 0px;
 			margin-bottom: 0px;
-			position: relative;
 			border-bottom-style: ridge;
-			border-bottom-width: 2px;
+			border-bottom-width: 0px;
 			border-bottom-color: red;
+			border-right-style: ridge;
+			border-right-width: 0px;
+			border-right-color: red;
+			width: 95%;
 			}
-#headtextmain	{
+.headtextmain	{
 			color: white;
 			text-shadow: -3px -3px black;
 			font-family: cursive;
 			font-style: italic;
 			text-indent: 50px;
 			font-size: 250%;
+			text-decoration: none;
 			}
-#headtextsub	{
+.headtextsub	{
 			color: white;
 			text-shadow: -3px -3px black;
 			font-family: cursive;
 			font-style: italic;
 			text-indent: 100px;
 			font-size: 125%;
+			text-decoration: none;
 			}
-#bar	{	position: static;
-			width: 100%;
+#topbar	{	
+			position: relative;
+			width: 95%;
 			height: 50px;
-			background-color: black;
-			border-bottom-color: red;
+			background-color: slategray;
+			border-top-color: red;
+			border-top-style: ridge;
+			border-top-width: 2px;
 			border-bottom-style: ridge;
 			border-bottom-width: 2px;
-			}
-.linktext{
-			text-shadow: -2px -2px red;
-			}
-#menu1 {
-			position: relative;
-			background-color: cornflowerblue;
-			width: 15%;
-			float: left;
-			border-right-style: ridge;
-			border-right-color: red;
-			border-right-width: 2px;
 			border-bottom-color: red;
-			border-bottom-style: ridge;
-			border-bottom-width: 2px;
 			}
-.linksl	{
-		
-			list-style-type: none;
-			padding: 5px;
-			margin: 5px;
-			top: 5px;
-			left: 5px;
-			width: ;
-			}
-ul.linksl li{
-			background-color: cornflowerblue;
-			margin: 5px;
-			padding: 2px;
-			border-width: 2px;
-			border-style: ridge;
-			}
-#body	{
-			position: relative;
-			text-indent: 20px;
-			width: 80%;
-			min-height: 100%;
+#pageall	{
+			position: absolute;
+			text-indent: 0px;
+			width: 95%;
+			height: 80%;
 			background-color: white;
-			float: left;
 			}
-#menur {
+#sidebar {
 			position: relative;
-			width: 15%;
-			float: right;
+			background-color: black;
+			width: 20%;
+			height: 100%;
+			float: left;
 			border-left-style: ridge;
 			border-left-color: red;
-			border-left-width: 2px;
+			border-left-width: 0px;
+			border-right-style: ridge;
+			border-right-color: red;
+			border-right-width: 0px;
 			border-bottom-color: red;
 			border-bottom-style: ridge;
-			border-bottom-width: 2px;
+			border-bottom-width: 0px;
 			}
-a	{
-			font-style: italic;
-			font-family: cursive;
-			color: white;
-			text-decoration: none;
+#content	{
+			position: relative;
+			float: left;
+			width: 80%;
+			background-color: lightgrey;
+			min-height: 100%;
+			border-right-style: ridge;
+			border-right-color: red;
+			border-right-width: 0px;
+			border-bottom-color: red;
+			border-bottom-style: ridge;
+			border-bottom-width: 0px;
+			float: right;
 			}
