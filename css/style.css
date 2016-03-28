@@ -3,7 +3,7 @@ body	{
 			margin: 0;
 			padding: 0;
 			height: 100%;
-			background-image: url("c:/netshare/img/brick128.gif")
+			background-image: url("c:img/brick128.gif")
 			}
 #container {
 			position: absolute;
@@ -12,7 +12,7 @@ body	{
 			}
 #header {
 			position: relative;
-			background-image: url("c:/netshare/img/box50.gif");
+			background-image: url("c:img/box50.gif");
 			padding: 0px;
 			padding-top: 50px;
 			margin: 0px;
